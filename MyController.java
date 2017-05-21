@@ -21,4 +21,11 @@ public class MyController
 		return new ModelAndView("catalog","msg",msg);
 	}
 	
+	@RequestMapping("/emp")
+	public ModelAndView emp()
+	{
+		String msg="Catalog";
+		return new ModelAndView("catalog","msg",msg);
+	}
+	
 }
