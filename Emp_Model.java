@@ -3,7 +3,9 @@ package com.ey.Model;
 public class Emp_Model 
 {
 	int id;
-	String name;
+	String name,dept;
+	double salary;
+	
 	
 	Emp_Model()
 	{
@@ -26,4 +28,19 @@ public class Emp_Model
 	public void setName(String name) {
 		this.name = name;
 	}
+	
+	public String getDept() {
+		return dept;
+	}
+	public void setDept(String Dept){
+		this.dept = dept;
+	}
+	
+	public double getSalary() {
+		return salary;
+	}
+	public void setSalary(double Salary){
+		this.salary = salary;
+	}
+	
 }
