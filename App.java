@@ -10,6 +10,9 @@ public class App
 {
 	public static void main(String[] args)
 	{
+		System.out.println();
+		
+		
 		ApplicationContext app = new ClassPathXmlApplicationContext("beans.xml");
 		
 		EmpDaoImpl ed = app.getBean("empdao",EmpDaoImpl.class);
